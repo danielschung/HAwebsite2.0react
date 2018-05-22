@@ -1,0 +1,175 @@
+.horizontal-center, .HA-logo, li, .location-icon, .header-container, .button {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%); }
+
+body, html, div {
+  font-family: "IBM Plex Sans", sans-serif;
+  font-weight: 300;
+  font-size: 1em;
+  margin: 0;
+  padding: 0; }
+
+.page-container {
+  background-color: grey;
+  margin: 0 auto;
+  width: 70em; }
+
+.primary-nav {
+  border-bottom: 0.07em solid #d6dde5; }
+
+.nav-container-outer {
+  height: 5em;
+  margin: 0 auto;
+  width: 70em; }
+
+.nav-container-inner {
+  height: 4.7em;
+  margin: 0 auto;
+  width: 100%; }
+
+.nav-left-container {
+  display: inline;
+  height: 4.7em;
+  width: 20em; }
+
+.HA-logo {
+  height: 3em;
+  float: left;
+  margin-right: 1.7em; }
+
+li {
+  list-style-type: none;
+  float: left; }
+
+ul, .bold, .black {
+  color: #707579;
+  display: inline-block;
+  font-size: 0.9em;
+  padding: 0.7em; }
+
+.bold, .black {
+  font-weight: 500; }
+
+.black {
+  color: black; }
+
+.nav-right-container {
+  height: 4.7em;
+  float: right; }
+
+.location {
+  padding-left: 0; }
+
+.location-icon {
+  height: 1.3em;
+  float: left; }
+
+header {
+  width: 100%; }
+
+.red-shape {
+  background-color: #894d53;
+  border-radius: 24px;
+  height: 33em;
+  margin: 0 auto;
+  margin-top: 1.2em;
+  width: 70em; }
+
+.header-container {
+  margin: 0 auto;
+  width: 46em; }
+
+.super-text {
+  color: white;
+  font-family: "Playfair Display", serif;
+  font-size: 3em;
+  margin-bottom: 0;
+  margin-top: 0; }
+
+.subhead-text {
+  color: white;
+  font-weight: 300;
+  font-size: 1.3em;
+  margin-top: 1em;
+  margin-bottom: 0; }
+
+main {
+  margin: 0 auto;
+  margin-top: 1.3em;
+  width: 70em; }
+
+.block-container {
+  height: 100%;
+  width: 100%;
+  margin: 0 auto; }
+
+.block {
+  display: inline-block;
+  border: 1px solid #d6dde5;
+  border-radius: 24px;
+  height: 23em;
+  text-align: center;
+  width: 32%; }
+
+.block-text-container {
+  margin-top: 4.5em; }
+  .block-text-container p {
+    margin-bottom: 0; }
+  .block-text-container .black {
+    margin-top: 0.1em; }
+
+.left {
+  margin-right: 1.37%; }
+
+.mid {
+  margin: 0 auto; }
+
+.right {
+  float: right; }
+
+.grey {
+  color: #707579; }
+
+.black-text {
+  color: black; }
+
+.findplan-container {
+  border-bottom: 1px solid #d6dde5;
+  height: 15.6em;
+  margin-top: 6.6em;
+  margin-bottom: 18em;
+  width: 100%; }
+
+.findplan-container-left {
+  width: 50%;
+  display: inline-block; }
+
+.findplan-container-right {
+  display: inline-block;
+  float: right;
+  height: 6.95em;
+  text-align: right;
+  width: 50%; }
+
+.button {
+  border: none;
+  border-radius: 24px;
+  font-family: "IBM Plex Sans", sans-serif;
+  font-weight: 300;
+  font-size: 1.3em;
+  margin-top: 1em;
+  margin-bottom: 0;
+  padding: 0.4em 2.7em; }
+
+.button.white {
+  background-color: white;
+  border: 1px solid #d6dde5;
+  color: #894d53; }
+
+.button.red {
+  background-color: #894d53;
+  color: white;
+  margin-left: 1.3em; }
+
+/*# sourceMappingURL=main.css.map */

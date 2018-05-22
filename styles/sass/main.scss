@@ -1,0 +1,264 @@
+// variables
+
+$primary-font:'IBM Plex Sans', sans-serif;
+$super-font:'Playfair Display', serif;
+$page-width:70em;
+$light-grey:#d6dde5;
+$grey:#707579;
+$red:#894d53;
+
+.horizontal-center {
+	position:relative;
+	top:50%;
+	transform:translateY(-50%);
+}
+
+// global
+
+body,html,div {
+	font-family:$primary-font;
+	font-weight:300;
+	font-size:1em;
+	margin:0;
+	padding:0;
+}
+
+.page-container {
+	background-color:grey;
+	margin: 0 auto;
+	width:$page-width;
+}
+
+//primary nav
+
+.primary-nav {
+	border-bottom: 0.07em solid $light-grey;
+}
+
+.nav-container-outer {
+	height:5em;
+	margin:0 auto;
+	width:$page-width;
+}
+
+.nav-container-inner {
+	height:4.7em;
+	margin:0 auto;
+	width:100%;
+
+}
+
+.nav-left-container {
+	display:inline;
+	height:4.7em;
+	width:20em;
+}
+
+.HA-logo {
+	height:3em;
+	float:left;
+	margin-right:1.7em;
+	@extend .horizontal-center;
+
+}
+
+li {
+	list-style-type:none;
+	float:left;
+	@extend .horizontal-center;
+}
+
+ul {
+	color:$grey;
+	display:inline-block;
+	font-size:0.9em;
+	padding:0.7em;
+}
+
+.bold {
+	@extend ul;
+	font-weight:500;
+}
+
+.black {
+	@extend .bold;
+	color:black;
+}
+
+.nav-right-container {
+	height:4.7em;
+	float:right;
+}
+
+.location {
+	padding-left:0;
+}
+
+.location-icon {
+	height:1.3em;
+	float:left;
+	@extend .horizontal-center;
+}
+
+//header
+
+header {
+	width:100%;
+}
+
+.red-shape {
+	background-color:$red;
+	border-radius:24px;
+	height:33em;
+	margin:0 auto;
+	margin-top:1.2em;
+	width:$page-width;
+}
+
+.header-container {
+	margin:0 auto;
+	width:46em;
+	@extend .horizontal-center;
+}
+
+.super-text {
+	color:white;
+	font-family:$super-font;
+	font-size:3em;
+	margin-bottom:0;
+	margin-top:0;
+}
+.subhead-text {
+	color:white;
+	font-weight:300;
+	font-size:1.3em;
+	margin-top:1em;
+	margin-bottom:0;
+
+}
+
+
+// main block
+
+main {
+	margin:0 auto;
+	margin-top:1.3em;
+	width:$page-width;
+}
+
+.block-container {
+	height:100%;
+	width:100%;
+	margin:0 auto;
+}
+
+.block {
+	display:inline-block;
+	border:1px solid $light-grey;
+	border-radius:24px;
+	height:23em;
+	text-align:center;
+	width:32%;
+
+}
+
+.block-text-container {
+	margin-top:4.5em;
+
+	p {
+		margin-bottom:0;
+	}
+
+	.black {
+		margin-top:0.1em;
+	}
+}
+
+.left {
+	margin-right:1.37%;
+}
+
+.mid {
+	margin: 0 auto;
+}
+
+.right {
+	float:right;
+}
+
+.grey {
+	color:$grey;
+}
+
+.black-text {
+	color:black;
+}
+
+// find plan
+
+.findplan-container {
+	border-bottom:1px solid $light-grey;
+	height:15.6em;
+	margin-top:6.6em;
+	margin-bottom:18em;
+	width:100%;
+}
+
+.findplan-container-left {
+	width:50%;
+	display:inline-block;
+}
+
+
+.findplan-container-right {
+	display:inline-block;
+	float:right;
+	height:6.95em;
+	text-align:right;
+	width:50%;
+}
+
+// buttons
+
+.button {
+	border:none;
+	border-radius:24px;
+	font-family:$primary-font;
+	font-weight:300;
+	font-size:1.3em;
+	margin-top:1em;
+	margin-bottom:0;
+	padding:0.4em 2.7em;
+	@extend .horizontal-center;
+}
+
+.button.white {
+	background-color:white;
+	border:1px solid $light-grey;
+	color:$red;
+}
+
+.button.red {
+	background-color:$red;
+	color:white;
+	margin-left:1.3em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
