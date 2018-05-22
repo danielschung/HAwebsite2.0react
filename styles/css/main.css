@@ -1,3 +1,9 @@
+.hover, .login:hover, .block:hover, .button.white:hover, .button.red:hover {
+  -o-transition: all .2s ease-in-out;
+  -ms-transition: all .2s ease-in-out;
+  -moz-transition: all .2s ease-in-out;
+  -webkit-transition: all .2s ease-in-out; }
+
 .horizontal-center, .HA-logo, li, .location-icon, .header-container, .button {
   position: relative;
   top: 50%;
@@ -65,6 +71,9 @@ ul, .bold, .black {
   height: 1.3em;
   float: left; }
 
+.login:hover {
+  color: #894d53; }
+
 header {
   width: 100%; }
 
@@ -111,6 +120,9 @@ main {
   height: 23em;
   text-align: center;
   width: 32%; }
+
+.block:hover {
+  border: 1px solid #894d53; }
 
 .block-text-container {
   margin-top: 4.5em; }
@@ -194,9 +206,17 @@ main {
   border: 1px solid #d6dde5;
   color: #894d53; }
 
+.button.white:hover {
+  border: 1px solid #894d53; }
+
 .button.red {
   background-color: #894d53;
   color: white;
-  margin-left: 1.3em; }
+  margin-left: 1.3em;
+  border: 1px solid #894d53; }
+
+.button.red:hover {
+  background-color: white;
+  color: #894d53; }
 
 /*# sourceMappingURL=main.css.map */

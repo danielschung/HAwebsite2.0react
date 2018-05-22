@@ -7,6 +7,15 @@ $light-grey:#d6dde5;
 $grey:#707579;
 $red:#894d53;
 
+//hover
+
+.hover {
+	-o-transition: all .2s ease-in-out;
+    -ms-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    -webkit-transition: all .2s ease-in-out;
+}
+
 .horizontal-center {
 	position:relative;
 	top:50%;
@@ -100,6 +109,11 @@ ul {
 	@extend .horizontal-center;
 }
 
+.login:hover {
+	@extend .hover;
+	color:$red;
+}
+
 //header
 
 header {
@@ -159,6 +173,11 @@ main {
 	height:23em;
 	text-align:center;
 	width:32%;
+}
+
+.block:hover {
+	@extend .hover;
+	border:1px solid $red;
 }
 
 .block-text-container {
@@ -268,10 +287,22 @@ main {
 	color:$red;
 }
 
+.button.white:hover {
+  @extend .hover;
+  border:1px solid $red;
+}
+
 .button.red {
 	background-color:$red;
 	color:white;
 	margin-left:1.3em;
+	border:1px solid $red;
+}
+
+.button.red:hover {
+  @extend .hover;
+  background-color:white;
+  color:$red;
 }
 
 
