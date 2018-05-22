@@ -159,7 +159,6 @@ main {
 	height:23em;
 	text-align:center;
 	width:32%;
-
 }
 
 .block-text-container {
@@ -193,6 +192,37 @@ main {
 .black-text {
 	color:black;
 }
+
+.image1 {
+	height:10em;
+	margin:0 auto;
+	margin-top:1em;
+	width:16em;
+	background-color:blue;
+	background-image: url(../../media/findadoctor.jpg);
+	background-size:cover;
+}
+
+.image2 {
+	height:10em;
+	margin:0 auto;
+	margin-top:1em;
+	width:16em;
+	background-color:blue;
+	background-image: url(../../media/findapharmacy.jpg);
+	background-size:cover;
+}
+
+.image3 {
+	height:10em;
+	margin:0 auto;
+	margin-top:1em;
+	width:16em;
+	background-color:blue;
+	background-image: url(../../media/talktoaguide.jpg);
+	background-size:cover;
+}
+
 
 // find plan
 
